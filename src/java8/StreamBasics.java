@@ -9,6 +9,8 @@ import java.util.stream.Stream;
 
 public class StreamBasics {
 
+	//A lambda expression is an anonymous function. A function that doesn’t have a name and doesn’t belong to any class
+	////Syntax of lambda expression ==>   (parameter_list) -> {function_body}
 	// LAMBDA Expressions are represented as Functional Interface in Java [Functions as Data] [We can pass behavior as an argument - behavior as data]
 	// LAMBDA Expressions are brought for using the internal Iterations and Make use of Multi core technologies
 	// Functional interface has only one abstract method (Runnable is an ideal old example)
