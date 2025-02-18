@@ -7,6 +7,23 @@ import java.util.Arrays;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+
+/**
+ * Streams offer performance advantages primarily through their ability to leverage parallel processing, lazy evaluation, and a declarative style, which can significantly improve the speed of data manipulation, especially when dealing with large datasets, by allowing efficient utilization of multi-core processors and minimizing unnecessary computations.
+ * Key performance benefits of streams:
+ *
+ * Parallel processing:
+ * Streams can easily be parallelized, enabling the distribution of data processing across multiple CPU cores, leading to faster execution times for large data sets.
+ *
+ * Lazy evaluation:
+ * Operations on streams are only executed when the result is actually needed, preventing unnecessary computations and optimizing memory usage.
+ *
+ * Stream pipeline optimization:
+ * The compiler can optimize the sequence of operations within a stream pipeline, potentially leading to more efficient code execution.
+ *
+ * Declarative style:
+ * By focusing on "what" needs to be done rather than "how" to do it, streams allow for more concise and readable code, which can improve development speed and reduce potential errors.
+ */
 public class StreamBasics {
 
 	//A lambda expression is an anonymous function. A function that doesn’t have a name and doesn’t belong to any class
