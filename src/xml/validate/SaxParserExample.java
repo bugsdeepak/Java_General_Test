@@ -13,7 +13,7 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
-import com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
+//import com.sun.org.apache.xerces.internal.impl.xs.SchemaSymbols;
 //import com.sun.org.apache.xerces.internal.jaxp.validation.xs.SchemaFactoryImpl;
 
 public class SaxParserExample extends DefaultHandler {/*
