@@ -5,14 +5,10 @@ import java.util.Set;
 
 /**
  * Count the number of pairs in an array having sums that are evenly divisible by a given number.
- * 
  * Hint: Integer Pair : Do not add the number to itself. ex: adding number at index 1 again with index 1.
- * 
- * Given an integer array and a0, a1,...an and Integer k. Find all the combination of pairs 
+ * Given an integer array and a0, a1,...an and Integer k. Find all the combination of pairs
  * in the array which is completely divisible by k
- * 
- * The Integer array is not sorted and may contain duplicate elements.
- * 
+ *  The Integer array is not sorted and may contain duplicate elements.
  * @author antbened
  *
  */
