@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="EUC-JP"?>
-<datasource>
-    <driver-class>com.mysql.jdbc.Driver</driver-class>
-    <connection-url>jdbc:mysql://localhost:3306/kit_pcm?characterEncoding=sjis</connection-url>
-    <user-name>平仮名</user-name>
-    <password>kit_pcm</password>
-</datasource>
