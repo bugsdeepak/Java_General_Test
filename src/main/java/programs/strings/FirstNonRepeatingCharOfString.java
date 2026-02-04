@@ -43,7 +43,7 @@ public class FirstNonRepeatingCharOfString {
 				countList.add(newCharIndx, newCharCount);
 			} else {
 				charList.add(newChar);
-				countList.add(charList.indexOf(newChar), new Integer(1));
+				countList.add(charList.indexOf(newChar), Integer.valueOf(1));
 			}
 		}
 		
