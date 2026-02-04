@@ -1,4 +1,4 @@
-package main.java.programs;
+package main.java.programs.strings;
 
 import java.util.ArrayList;
 
@@ -35,10 +35,10 @@ public class FirstNonRepeatingCharOfString {
 		
 		char newChar; int newCharIndx; Integer newCharCount;
 		for(int i=0; i<charArr.length; i++) {
-			newChar = new Character(charArr[i]);
+			newChar = charArr[i];
 			if(charList.contains(newChar)) {
 				newCharIndx = charList.indexOf(newChar);
-				newCharCount = new Integer(countList.get(newCharIndx).intValue() + 1);
+				newCharCount = Integer.valueOf(countList.get(newCharIndx).intValue() + 1);
 				countList.remove(newCharIndx);
 				countList.add(newCharIndx, newCharCount);
 			} else {
