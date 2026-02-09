@@ -35,8 +35,14 @@ public class StreamBasics {
 	/* Method Reference: Static method references, Object method references
 	 * A Functional Interface can be used for a parameter when a Lambda expression or Method reference passed 
 	 * as an argument 
-	 * 
-	 * Types of Functional Interface 
+	 *
+	 * Java provides built-in functional interfaces for higher-order functions: Those are below.
+	 * We can also create our own functional interface by using @FunctionalInterface annotation.
+	 *
+	 * First-order functions = Traditional methods (what Java had before Java 8)
+	 * Higher-order functions = Functions that can be passed around and manipulated (Java 8+)
+	 *
+	 * Types of Functional Interface Or Higher order functions:
 	 * 1. Predicate - Predicate<T> { boolean test (T t) } - removeIf() is a Predicate
 	 * 2. Function -  Function<T, R> { R apply(T t) } - sort(Comparator comp) 
 	 * 3. Bi-Function - BiFunction<T, U, R> { R apply (T t, U u) } - Map.replaceAll(K, V)
